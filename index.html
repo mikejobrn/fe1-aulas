@@ -2,10 +2,18 @@
 <html>
     <head>
         <title>Repositório das aulas de FE 1</title>
+
+        <!-- Este trecho de código foi copiado diretamente do Google Fonts. Não
+        se preocupe em entendê-lo no momento. Como mencionei na aula, o que importa
+        entender é que ele carrega um estilo CSS contendo algumas fontes. Neste caso
+        estou utilizando as fontes Cultive Mono, Rowdies e Urbanist.  -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Rowdies&family=Urbanist&display=swap" rel="stylesheet">
+        <!-- Fim do código do Google Fonts -->
+
         <!-- A paleta de cores utilizada foi a https://www.color-hex.com/color-palette/1039919 -->
+
         <style>
             body {
                 background-color: #fefefe;
@@ -30,9 +38,15 @@
                 font-size: 20px;
             }
 
-            strong {
+            ol ul li a {
                 background-color: #eba37a;
+                color: black;
                 font-family: 'Cutive Mono';
+                font-size: 18px;
+            }
+
+            ol ul li a:hover {
+                color: black;
             }
 
             a {
@@ -47,44 +61,91 @@
     <body>
         <h1>Repositório das aulas de Front-End I</h1>        
         
-        <p>Esta página vai reunir todo o conteúdo e links úteis das nossas aulas. Esta página utilizará apenas código visto em sala de aula, portanto você deve ser capaz de compreender seu código-fonte por completo.</p>
+        <!-- Repare que o espaçamento aqui não interfere na forma que o texto vai ser renderizado.
+        O navegador continua interpretando como se o texto fosse contínuo. Se você quisesse que o
+        navegador também tivesse essa quebra de linha, seria necessário usar aquela tag <br>, lembra? -->
+        <p>
+            Esta página vai reunir todo o conteúdo e links úteis das nossas aulas.
+            Esta página utilizará apenas código visto em sala de aula, portanto
+            você deve ser capaz de compreender seu código-fonte por completo.
+        </p>
         
         <h2>Aulas</h2>
 
-        <p>Esta seção apresenta os principais conteúdos abordados em cada aula. É interessante revisá-los e explorá-los ao máximo.</p>
+        <p>
+            Esta seção apresenta os principais conteúdos abordados em cada aula.
+            É interessante revisá-los e explorá-los ao máximo.
+        </p>
 
         <ol>
             <li>15/01 - Apresentações</li>
             <li>
                 16/01 - Elementos básicos
                 <ul>
-                    <li>Estrutura do HTML <strong>Doctype</strong>, <strong>html</strong></li>
-                    <li>Cabeça e Corpo <strong>head</strong>, <strong>body</strong></li>
-                    <li>Parágrafos <strong>p</strong></li>
-                    <li>Cabeçalhos <strong>h1</strong>, <strong>h2</strong>, <strong>h3</strong>, <strong>h4</strong>, <strong>h5</strong>, <strong>h6</strong></li>
-                    <li>Quebras de linha <strong>br</strong></li>
+                    <li>
+                        Estrutura do HTML
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/Doctype">Doctype</a>,
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">html</a>
+                    </li>
+                    <li>
+                        Cabeça e Corpo
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/head">head</a>,
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/body">body</a>
+                    </li>
+                    <li>Parágrafos <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/p">p</a></li>
+                    <li>
+                        Cabeçalhos
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Heading_Elements">h1</a>,
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Heading_Elements">h2</a>,
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Heading_Elements">h3</a>,
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Heading_Elements">h4</a>,
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Heading_Elements">h5</a>,
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Heading_Elements">h6</a>
+                    </li>
+                    <li>Quebras de linha <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/br">br</a></li>
                     <li>Comentários
                 </ul>
             </li>
             <li>17/01 - Elementos básicos
                 <ul>
-                    <li>Listas ordenadas <strong>ol</strong></li>
-                    <li>Listas não-ordenadas <strong>ul</strong></li>
-                    <li>Links / Âncoras <strong>a</strong></li>
-                    <li>Imagens <strong>img</strong></li>
+                    <li>Listas ordenadas <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/ol">ol</a></li>
+                    <li>Listas não-ordenadas <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/ul">ul</a></li>
+                    <li>Itens de lista <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li">li</a></li>
+                    <li>Links / Âncoras <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a">a</a></li>
+                    <li>Imagens <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/img">img</a></li>
                 </ul>
             <li>22/01 - Layout
                 <ul>
                     <li>Estrutura do CSS</li>
                     <li>CSS inline</li>
-                    <li>CSS separado <strong>style</strong></li>
-                    <li>Atributos
+                    <li>CSS separado <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/style">style</a></li>
+                    <li>Propriedades
                         <ul>
-                            <li>Color</li>
-                            <li>Background-color</li>
-                            <li>Font-size</li>
-                            <li>Text-align</li>
-                            <li>Font-family</li>
+                            <li>
+                                <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/color_value">
+                                    color
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/background-color">
+                                    background-color
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/font-size">
+                                    font-size
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/text-align">
+                                    text-align
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/font-family">
+                                    font-family
+                                </a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -93,20 +154,28 @@
 
         <h2>Atividades</h2>
 
-        <p>Nesta seção estão os links para envio das atividades avaliativas requisitadas em sala.</p>
+        <p>
+            Nesta seção estão os links para envio das atividades avaliativas
+            requisitadas em sala.
+        </p>
 
         <ol>
             <li>
+                <!-- Lembre-se que esses espaçamentos que faço aqui são apenas para facilitar a leitura.
+                Você pode colocar tudo em uma linha só se quiser. -->
                 <a href="https://forms.gle/mp1ZWgVAzJAUSkWo7">
                     Minha Primeira Página
                 </a>
-                - Esta foi a primeira atividade onde o objetivo era modificar os textos e imagens deste <a href="https://mikejobrn.github.io/fe1-01-apresentacao/">link</a>
+                - Esta foi a primeira atividade onde o objetivo era modificar os textos e imagens
+                deste <a href="https://mikejobrn.github.io/fe1-01-apresentacao/">link</a>
             </li>
             <li>
                 <a href="https://forms.gle/TWJJRWyywBxCnzHd7">
                     Meu Perfil
                 </a>
-                - Esta foi a segunda atividade, onde criamos uma página para ser seu perfil, contendo uma imagem de avatar, letras de música, lista de jogos e séries favoritos entre outros hobbies.
+                - Esta foi a segunda atividade, onde criamos uma página para ser seu perfil,
+                contendo uma imagem de avatar, letras de música, lista de jogos e séries favoritos
+                entre outros hobbies.
             </li>
         </ol>
 
@@ -116,7 +185,12 @@
 
         <h3>Perfil</h3>
 
-        <p>Atualmente estamos estilizando nossa página de perfil da atividade 2. Abaixo temos alguns modelos que vocês podem se inspirar. Não se preocupem quanto ao posicionamento dos elementos e espaçamentos, vamos trabalhar esses recursos ao longo de nossas aulas:</p>
+        <p>
+            Atualmente estamos estilizando nossa página de perfil da atividade 2.
+            Abaixo temos alguns modelos que vocês podem se inspirar.
+            Não se preocupem quanto ao posicionamento dos elementos e espaçamentos,
+            vamos trabalhar esses recursos ao longo de nossas aulas:
+        </p>
 
         <ul>
             <li>
@@ -133,7 +207,13 @@
 
         <h2>Tutoriais</h2>
 
-        <p>A quantidade de elementos HTML e propriedades CSS é muito maior do que podemos abordar em sala de aula. Por isso, listo a seguir alguns tutoriais que vocês podem utilizar para estudar em casa. Estudem e tirem o máximo de dúvidas que puderem nas aulas presenciais e nos canais de dúvidas do Discord!</p>
+        <p>
+            A quantidade de elementos HTML e propriedades CSS é muito maior
+            do que podemos abordar em sala de aula. Por isso, listo a seguir
+            alguns tutoriais que vocês podem utilizar para estudar em casa.
+            Estudem e tirem o máximo de dúvidas que puderem nas aulas presenciais
+            e nos canais de dúvidas do Discord!
+        </p>
 
         <ul>
             <li>
@@ -151,7 +231,9 @@
 
         <ul>
             <li>
-                <a href=https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n">@CursoemVideo (pt-BR)</a>
+                <a href=https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n">
+                    @CursoemVideo (pt-BR)
+                </a>
             </li>
         </ul>
 
@@ -159,7 +241,13 @@
 
         <ul>
             <li>
-                Gerador de paletas de cores: <a href="https://www.canva.com/colors/color-palette-generator/">Canva Color Wheel</a>, <a href="https://paletton.com/">Paletton</a>, <a href="https://colorpalettes.net/">ColorPalettes</a>, <a href="https://www.color-hex.com/color-palettes/">Color Hex</a>
+                Gerador de paletas de cores:
+                <a href="https://www.canva.com/colors/color-palette-generator/">
+                    Canva Color Wheel
+                </a>,
+                <a href="https://paletton.com/">Paletton</a>,
+                <a href="https://colorpalettes.net/">ColorPalettes</a>,
+                <a href="https://www.color-hex.com/color-palettes/">Color Hex</a>
             </li>
             <li>
                 Fontes grátis na web: <a href="https://fonts.google.com/">Google Fonts</a>
