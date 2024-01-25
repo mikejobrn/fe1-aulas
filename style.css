@@ -1,37 +1,35 @@
 html {
-    /*
-    background: rgb(0,212,255);
-    background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(9,106,121,1) 74%, rgba(2,0,36,1) 100%);
-    */
+    background: rgb(235,163,122);
+    background: linear-gradient(180deg, rgba(235,163,122,1) 0%, rgba(246,214,195,1) 100%);
 }
 
 body {
     background-color: white;
     font-family: 'Urbanist';
-    width: 400px;
+    width: 800px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     border-color: black;
-    border-width: 10px;
+    border-width: 5px;
     border-style: solid;
     padding: 40px;
     border-radius: 20px;
-    box-shadow: 10px 20px 0 gray;
+    box-shadow: 0 0 10px rgba(54, 54, 54, 0.781);
 }
 
 h1 {
     color: #00305c;
     font-family: 'Rowdies';
     font-size: 40px;
-    text-shadow: 10px 20px 0 black;
+    text-shadow: 5px 5px 5px #00305c44;
 }
 
 h2 {
     color: #00305c;
     font-family: 'Rowdies';
     font-size: 30px;
-    display: inline;
+    text-shadow: 5px 5px 5px #00305c44;
 }
 
 h3 {
@@ -40,15 +38,17 @@ h3 {
     font-size: 20px;
 }
 
-p {
-    display: none;
-}
-
 ol ul li a {
     background-color: #eba37a;
+    border-radius: 5px;
     color: black;
     font-family: 'Cutive Mono';
-    font-size: 18px;
+    font-size: 16px;
+    padding: 2px 6px;
+}
+
+ol ul li a:hover {
+    box-shadow: 2px 2px 5px rgba(54, 54, 54, 0.781);
 }
 
 ol li {
@@ -56,7 +56,7 @@ ol li {
 }
 
 ul li {
-    margin-top: 0;
+    margin-top: 6px;
 }
 
 ol ul li a:hover {
