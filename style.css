@@ -70,20 +70,3 @@ a {
 a:hover {
     color: #63c86b;
 }
-
-#ee {
-    display: none;
-    height: 500px;
-    left: calc(50% - 800px/2 - 350px);
-    position: fixed;
-    transform: rotate(-15deg);
-    text-align: center;
-    top: calc(50% - 500px/2);
-    width: 300px;
-}
-
-#ee h2 {
-    color: white;
-    font-size: 50px;
-    text-shadow: 0 0 3px black;
-}
